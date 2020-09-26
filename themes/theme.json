@@ -1,0 +1,158 @@
+{
+	"name": "Mohammed's Badran Theme",
+	"type": "dark",
+	"colors": {
+		"sideBar.background": "#5B798A",
+		"sideBar.border": "#1a3b47",
+		"sideBarSectionHeader.background": "#1a3b47",
+		"sideBar.foreground": "#EEEEEE",
+		"sideBarTitle.foreground": "#15323d",
+		"sideBarSectionHeader.foreground": "#EEEEEE",
+		"editor.background": "#22333D",
+		"editor.foreground": "#EEEEEE", 
+		"editor.selectionBackground": "#eeeeee",
+		"editor.selectionForeground": "#49F2E1",
+		"editor.inactiveSelectionBackground": "#999999",
+		"notification.buttonBackground": "#22333D",
+		"extensionButton.prominentHoverBackground": "#1a3b47",
+		"activityBar.background":"#1a3b47",
+		"activityBar.foreground":"#A3C3D6",
+		"activityBar.border":"#D69453",
+		"activityBar.activeFocusBorder":"#D69453",
+		"input.border":"#D69453",
+		"input.foreground":"#49F2E1",
+		"input.placeholderForeground":"#49F2E1",
+		"inputOption.activeBackground":"#49F2E1",
+		"inputOption.activeBorder":"#49F2E1",
+		"inputOption.activeForeground":"#49F2E1",
+		"inputValidation.errorBackground":"#49F2E1",
+		"inputValidation.errorForeground":"#49F2E1",
+		"inputValidation.errorBorder":"#49F2E1",
+		"inputValidation.infoBackground":"#49F2E1",
+		
+		"__BONUS__": "Using the Visual Studio Code theme documentation, style the 'activity bar'. https://code.visualstudio.com/api/references/theme-color"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#A3C3D6"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#15D6A7"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#D69453"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#49F2E1"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#BF73B8"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#D69453"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#D6CF67"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#D6CF67"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#D6CF67"
+			}
+		}
+	]
+}
